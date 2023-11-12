@@ -1,0 +1,12 @@
+
+UX Designer => workflow, color, font, 
+UI Designer, Graphic Designer
+web Designer
+web development
+digital marketor
+
+ui/Graphic designer {
+    figma
+    xd
+    photoshop
+}

@@ -1,0 +1,18 @@
+Fonts {Headline, Description, Quote}
+Icon / Fontawesome
+Bootstrap
+Color => color1 = 0771b9, color2 = , Hover Color=353535,
+Images
+
+Section {
+    01 - Welcome
+    02 - Menu
+    03 - Hero
+    04 - About
+    05 - Service
+    06 - Portfolio
+    07 - Team
+    08 - Testimonial
+    09 - Footer Link
+    10 - Footer
+}

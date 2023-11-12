@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
+/*GOOGLE FONTS LINK=*/
+
+/*COMON CSS ARIA*/
+* {
+    margin: 0;
+    padding: 0;
+    font=family:'Open Sans';
+    box-sizing: border-box;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font=family: 'Oswald', sans=serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0%;
+    padding: 0%;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    vertical-align: middle;
+}
+:root {
+    --primaryColor: #0771b9;
+    --secondaryColor: #5bc5f3;
+    --whitColor:#fff;
+    --fontOswald:'Oswald';
+    --fontSans:'Open Sans';
+}
+
+/*COMON CSS ARIA END*/
+/*===============================================*/
+
+/*Welcome Aria*/
+.welcome_part{
+    background: var(--primaryColor);
+}
+.welcome_part li a{
+    color: var(--whitColor);
+    transition: .4s;
+}
+.welcome_icon li a:hover {
+    color: #353535;
+
+}
+
+/*Welcome Aria end*/
+/*=====================================*/
+
+/*MENU ARIA*/
+a.nav-link:hover{
+    color: var(--primaryColor);
+}
+
+/*MENU ARIA END*/
+/*=====================================*/
+
+/*HERO ARIA*/
+.hero_area{
+    padding: 90px 0;
+    background: url(../img/hero_bg.webp) no-repeat center;
+    background-size: cover;
+}
+.hero_con h2{
+    font-size: 38px;
+    font-weight: 400;
+}
+.hero_con h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/*HERO ARIA END*/
+/*=====================================*/
+
+/*ABOUT ARIA*/
+
+/*ABOUT ARIA END*/
+/*=====================================*/
+
+/*SERVICE ARIA*/
+
+/*SERVICE ARIA END*/
+/*=====================================*/
+
+/*PORTFOLIO ARIA*/
+
+/*PORTFOLIO ARIA END*/ 
+/*=====================================*/
+
+/*TEAM ARIA*/
+
+/*TEAM ARIA END*/ 
+/*=====================================*/  
+
+/*Testimonial ARIA*/
+
+/*Testimonial ARIA END*/ 
+/*=====================================*/
+
+/*Footer Link ARIA*/
+
+/*Footer Link ARIA END*/ 
+/*=====================================*/ 
+
+/*Testimonial ARIA*/
+
+/*Testimonial ARIA END*/ 
