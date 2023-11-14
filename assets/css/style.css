@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
+/* Google font link */
+
+/* COMMON CSS AREA */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+img {
+    vertical-align: middle;
+}
+:root {
+    --primaryColor: #0771b9;
+    --secondaryColor: #5bc5f3;
+    --fontOswald: 'Oswald', sans-serif;
+    --fontSans: 'Open Sans', sans-serif;
+}
+/* COMMON CSS AREA end */
+
+/* ===================================== */
+
+/* WELCOME AREA */
+.welcome_part {
+    background: var(--primaryColor);
+}
+.welcome_icon li a {
+    color: #fff;
+    transition: .4s;
+}
+.welcome_icon li a:hover {
+    color: #353535;
+}
+/* WELCOME AREA end */
+
+/* =========================== */
+
+/* MENU AREA */
+a.nav-link:hover {
+    color: var(--primaryColor);
+}
+/* MENU AREA end */
+
+/* =========================== */
+
+/* HERO AREA */
+.hero_area {
+    padding: 110px 0;
+    background: url(../img/hero_bg.webp) no-repeat center;
+    background-size: cover;
+}
+.hero_con h2 {
+    font-size: 38px;
+    font-weight: 400;
+}
+.hero_con h1 {
+    font-size: 54px;
+    font-weight: 700;
+}
+.hero_con p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+.hero_btn a {
+    background: var(--primaryColor);
+    border: 2px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: var(--fontOswald);
+    /* margin: 0 10px; */
+}
+.hero_btn a:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+/* HERO AREA end */
+
+/* =========================== */
+
+/* ABOUT AREA */
+.about_head {
+    padding: 60px 0 40px;
+}
+.headline .div_01,
+.headline .div_02,
+.headline .div_03,
+.headline .div_04 {
+    width: 47px;
+    height: 1px;
+    background: var(--primaryColor);
+}
+.headline .div_02 {
+    width: 3px;
+}
+.headline .div_03 {
+    width: 2px;
+}
+.headline .div_04 {
+    width: 1px;
+}
+.headline h3 {
+    font-size: 32px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.about_con p {
+    font-size: 16px;
+    color: #353535;
+    line-height: 1.8;
+}
+/* ABOUT AREA end */
+
+/* =========================== */
+
+/* SERVICE AREA */
+.service_con {
+    padding: 50px 20px 20px;
+    background: #f1f1f1;
+    transition: .4s;
+}
+.service_con:hover .service_icon {
+    background: var(--secondaryColor);
+}
+.service_con:hover {
+    /* box-shadow: rgba(0,0,0,0.20) 0 0 24px 6px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.service_icon {
+    height: 80px;
+    width: 80px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 8px double #fff;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .4s;
+}
+.service_con h4 {
+    font-size: 24px;
+    color: #353535;
+    text-transform: uppercase;
+}
+.service_con p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.4;
+}
+/* SERVICE AREA end */
+
+/* =========================== */
+
+/* PORTFOLIO AREA */
+.portfolio_img {
+    position: relative;
+}
+.portfolio_img:hover .portfolio_overlay {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.portfolio_overlay {
+    height: 0%;
+    width: 0%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+}
+.portfolio_overlay a {
+    height: 40px;
+    width: 40px;
+    background: var(--secondaryColor);
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* PORTFOLIO AREA end */
+
+/* =========================== */
+
+/* TEAM AREA */
+/* TEAM AREA end */
+
+/* =========================== */
+
+/* TESTIMONIAL AREA */
+/* TESTIMONIAL AREA end */
+
+/* =========================== */
+
+/* FOOTER AREA */
+/* FOOTER AREA end */   
